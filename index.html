@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <h1>Atspėk skaičių nuo 1 iki 10</h1>
+    <input type="number" id="guess" min="1" max="10">
+    <button onclick="checkGuess()">Spėti</button>
+
+    <p id="result"></p>
+
+    <audio id="winSound" src="https://www.soundjay.com/button/sound/button-3.mp3"></audio>
+    <audio id="failSound" src="https://www.soundjay.com/button/sound/button-10.mp3"></audio>
+
+    
+    <script src="game.js"></script>
+</body>
+</html>
