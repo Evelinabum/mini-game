@@ -1,6 +1,4 @@
-## Math game counter
-
-Guess the number from 1 to 10
+## Guess the number from 1 to 10
 
 ## 🌟 About
 
